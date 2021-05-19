@@ -1,0 +1,27 @@
+{
+  "name": "xzprod/reviews",
+  "type": "project",
+  "authors": [
+    {
+      "name": "XZprod",
+      "email": "r.o.profile@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "ext-mbstring": "*",
+    "ext-json": "*"
+  },
+
+
+  "autoload": {
+    "psr-4": {
+      "App\\": "classes"
+    },
+
+    "files": [
+      "utils.php"
+    ]
+  }
+
+}
